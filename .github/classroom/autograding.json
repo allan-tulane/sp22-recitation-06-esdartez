@@ -1,18 +1,8 @@
 {
   "tests": [
     {
-      "name": "auto-grade",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "python main.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "autograde-1",
-      "setup": "sudo -H pip3 install pytest",
+      "name": "autograde&#38;&#35;45&#59;1",
+      "setup": "sudo -H pip3 install pytest; sudo -H pip3 install tabulate",
       "run": "pytest test_main.py",
       "input": "",
       "output": "",
